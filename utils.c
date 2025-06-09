@@ -114,7 +114,6 @@ void swap(int *a, int *b) {
   *b = temp;
 }
 
-//
 void fill_board_with_nums(int **board)
 {
     int box = 3;

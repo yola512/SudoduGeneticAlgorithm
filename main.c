@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "sudoku.h"
 #include "geneticAlgorithm.h"
 
 int main(void) {
@@ -73,10 +72,10 @@ int main(void) {
                  printf("--------------------------------------------\n");
                  printBoard(currentGame);
 
-                 solve_sudoku_sa(currentGame, T_start, T_end, alpha);
+                 solveWithGeneticAlgorithm(currentGame);
 
                  printf("\n---------------------------------\n");
-                 printf("- SOLVED SUDOKU BOARD (after SA) -\n");
+                 printf("- SOLVED SUDOKU BOARD (after Genetic Algorithm) -\n");
                  printf("---------------------------------\n");
                  printBoard(currentGame);
 
