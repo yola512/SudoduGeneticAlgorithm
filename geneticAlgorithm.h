@@ -4,8 +4,9 @@
 #include "sudoku.h"
 
 #define POPULATION_SIZE 200
-#define MAX_GENERATIONS 10000
+#define MAX_GENERATIONS 20000
 #define MUTATION_RATE 0.10
+#define CROSSOVER_RATE 0.75
 
 typedef struct {
     int **board;
